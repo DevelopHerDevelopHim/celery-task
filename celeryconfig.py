@@ -7,11 +7,12 @@ CELERY_RESULT_BACKEND = "amqp"
 CELERY_IMPORTS=("tasks",)
 
 from celery.schedules import crontab
+from datetime import timedelta
  
 CELERYBEAT_SCHEDULE = {
-    'every-minute': {
-        'task': 'tasks.multiply',
-        'schedule': crontab(minute='*/1'),
-        'args': (1,2),
+    'add-every-10-seconds': {
+        'task': 'tasks.fav_doctor',
+        'schedule': timedelta(seconds=10),
     },
 }
+
