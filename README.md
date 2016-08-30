@@ -19,15 +19,15 @@ The Celery worker (celery is an asynchronous task queue/job queue based on distr
 
 **Starting RabbitMQ**
 
-<img src="static/img/rabbitmq.png">
+<img src="img/rabbitmq.png">
 
 **Starting Celery Worker**
 
-<img src="static/img/starting-celery.png">
+<img src="img/starting-celery.png">
 
 **Celery Worker**
 
-<img src="static/img/celery-process.png" >
+<img src="img/celery-process.png" >
 
 
 ### Technology Stack
