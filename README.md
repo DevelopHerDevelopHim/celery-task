@@ -8,7 +8,7 @@ A simple celery task using the heartbeat feature in Python.
 
 Reads a file that prints to the console and writes to the file every 10 seconds.
 
-For full details on the process of creating this project: [Viedo <coming soon>](https://www.youtube.com/channel/UCmAIHsNUyAzJ6FQMdU5jdRw), [Blog](https://chatasweetie.com/2016/09/02/celery-distributed-task-queue/)    
+For full details on the process of creating this project: [Video](https://www.youtube.com/watch?v=waD4MEj8WGw), [Blog](https://chatasweetie.com/2016/09/02/celery-distributed-task-queue/)    
 
 **How it works**
 
